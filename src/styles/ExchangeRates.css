@@ -1,0 +1,45 @@
+.exchange__select {
+  width: 15%;
+  outline: none;
+}
+
+.exchange__label {
+  margin-right: 15px;
+  font-weight: 500;
+  color: rgb(45, 45, 110);
+}
+
+.exchange__select {
+  margin-right: 50px;
+}
+
+.currency-block__item {
+  display: flex;
+  border-top: 1px solid rgb(21, 21, 51);
+  border-right: 1px solid rgb(21, 21, 51);
+  border-left: 1px solid rgb(21, 21, 51);
+  font-weight: 500;
+  color: rgb(79, 79, 211);
+}
+
+.currency-block__item:last-child {
+  border-bottom: 1px solid rgb(21, 21, 51);
+}
+
+.currency-block__name,
+.currency-block__value {
+  position: relative;
+  width: 130px;
+  padding: 10px;
+}
+
+.currency-block__name::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 1px;
+  background-color: rgb(21, 21, 51);
+}
